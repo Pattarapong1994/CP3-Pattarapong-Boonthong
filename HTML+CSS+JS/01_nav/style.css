@@ -1,0 +1,26 @@
+.flexContainer{
+    display:flex ;
+}
+
+.flexItem{
+    flex: 1;
+}
+
+.flexStart{
+    justify-content: flex-start;
+}
+
+.blueBackground{
+    background: lightskyblue;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    color: #ffffff;
+}

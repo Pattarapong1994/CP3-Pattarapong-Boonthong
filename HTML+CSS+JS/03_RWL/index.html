@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flexContainer flexColum fullHeight whiteBackground">
+
+        <nav class="flexContainer blueBackground">
+            
+            <ul class="nav flexItem flexStart">
+                <li><a href="#">Por</a></li>
+            </ul>
+
+            <ul class="nav flexContainer flexEnd">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="flexContainer flexItem">
+            <main class="flexItem whiteBackground main">
+                <p>Put content Here</p>
+                <a href="#" class="homeButton"></a>
+            </main>
+
+            <aside class="sidebar sidebarLeft">
+                <h2>Left Sidebar</h2>
+                <p>Put Content Here</p>
+            </aside>
+
+            <aside class="sidebar sidebarRight">
+                <h2>Right Sidebar</h2>
+                <p>Put Content Here</p>
+            </aside>
+            
+        </div>
+
+        <footer class="flexContainer flexCenter blueBackground whiteText height50">
+            <p>&copy;Porz</p>
+        </footer>
+
+    </div>
+</body>
+</html>

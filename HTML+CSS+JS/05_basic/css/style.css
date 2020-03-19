@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80);
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background: rgb(46, 45, 45);
+    height: 150px;
+}
+.mainText{
+    color: #fff;
+    font-size: 60px;
+}
+.textSup{
+    color: rgb(184, 182, 182);
+    font-size: 12px;
+}
+.sidebar{
+    margin-top: 5px;
+    background-color: #333333;
+    width: 20%;
+    height: 768px;
+    float: left;
+}
+.manuText{
+    color: #fff;
+    border-bottom: #554f4f 2px solid ;
+    font-size: 36px;
+    text-align: center;
+    height: 45px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li{
+    border-bottom: #cacaca 2px solid;
+    padding: 10px;
+    text-align: center;
+    transition: .5s;
+}
+.sidebar ul li:hover {
+    color: #333333;
+    background-color: #cacaca;
+}
+.sidebar ul li a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content{
+    float: right;
+    margin-top: 5px;
+    background-color: #b39898;
+    opacity: .78;
+    max-width: 79%;
+    height: 768px;
+    text-align: center;
+
+}
+.imghero{
+    width: 180px;
+    margin: 1em 0;
+}
+.namehero{
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+.datehero{
+    color: #333333;
+    padding: 5px 35px;
+    text-align: center;
+}
+
+
+
+footer{
+    clear: both;
+    background-color: #181010;
+    color: #fff;
+    height: 20px;
+    max-width: 100%;
+    padding: 5px 25px;
+}
+.copy{
+    text-align: left;
+    float: left;
+}
+.date{
+    text-align: left;
+    float: right;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 35px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */

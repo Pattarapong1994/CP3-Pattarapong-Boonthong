@@ -1,0 +1,23 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.flexContainer{
+    display: flex;
+}
+.flexSpaceAround{
+    justify-content: space-around;
+}
+
+.col{
+    width: 32%;
+    border: 1px solid #666666;
+    border-radius: 8px;
+    background: white;
+    padding: 20px;
+    margin: 0 1em;
+}
+.containerWidth{
+    width: 80%;
+    margin: 0 auto;
+}
